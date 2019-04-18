@@ -6,9 +6,10 @@ import java.util.Map;
 import com.graduationproject.domain.Apply;
 import com.graduationproject.domain.Review2;
 import com.graduationproject.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-
+@Mapper
 public interface Review2Dao {
 	
 	/**

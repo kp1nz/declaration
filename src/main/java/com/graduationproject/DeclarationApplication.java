@@ -5,8 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@MapperScan("com.graduationproject.*dao")
+@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
+@MapperScan("com.graduationproject.dao")
 public class DeclarationApplication {
 
     public static void main(String[] args) {

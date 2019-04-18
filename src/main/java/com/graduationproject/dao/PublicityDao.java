@@ -6,9 +6,10 @@ import java.util.Map;
 import com.graduationproject.domain.Apply;
 import com.graduationproject.domain.Publicity;
 import com.graduationproject.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-
+@Mapper
 public interface PublicityDao {
 	
 	/**

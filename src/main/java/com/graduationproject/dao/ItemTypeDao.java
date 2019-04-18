@@ -3,11 +3,12 @@ package com.graduationproject.dao;
 import java.util.List;
 
 import com.graduationproject.domain.ItemType;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import javax.annotation.Resource;
 
-@Resource
+@Mapper
 public interface ItemTypeDao {
 	
 	public List<ItemType> list();

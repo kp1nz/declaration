@@ -3,9 +3,10 @@ package com.graduationproject.dao;
 import java.util.List;
 
 import com.graduationproject.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-
+@Mapper
 public interface UserDao {
 	
 	/**

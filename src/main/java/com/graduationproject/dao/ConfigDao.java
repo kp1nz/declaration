@@ -3,10 +3,11 @@ package com.graduationproject.dao;
 import java.util.List;
 
 import com.graduationproject.domain.Config;
+import org.apache.ibatis.annotations.Mapper;
 
 import javax.annotation.Resource;
 
-@Resource
+@Mapper
 public interface ConfigDao {
 	
 	/**

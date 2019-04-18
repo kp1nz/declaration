@@ -4,11 +4,12 @@ import java.util.List;
 import java.util.Map;
 
 import com.graduationproject.domain.Apply;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import javax.annotation.Resource;
 
-@Resource
+@Mapper
 public interface ApplyDao {
 	
 	/**

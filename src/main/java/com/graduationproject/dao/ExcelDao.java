@@ -5,9 +5,10 @@ import java.util.List;
 import com.graduationproject.domain.Apply;
 import com.graduationproject.domain.ItemVO;
 import com.graduationproject.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-
+@Mapper
 public interface ExcelDao {
 	
 	public List<User> exportUserExcel(@Param("user") User user, @Param("str") String str, @Param("start") int start, @Param("pageSize") int pageSize);

@@ -2,10 +2,11 @@ package com.graduationproject.dao;
 
 import com.graduationproject.domain.Signln;
 import com.graduationproject.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-
+@Mapper
 public interface SignlnDao {
 	
 	/**
